@@ -3,7 +3,7 @@ bitcoin-abc new opcodes stress test
 
 Dependencies
 =====================
-Download and install JQ from github repo for Linux  ["https://stedolan.github.io/jq"]
+Download and install JQ from github repo for Linux  [https://stedolan.github.io/jq]
 
 ```
 $ cd ~/Downloads
