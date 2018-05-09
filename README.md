@@ -1,6 +1,18 @@
 
 bitcoin-abc new opcodes stress test
 
+Dependencies
+=====================
+Download and install JQ from github repo for Linux ["https://stedolan.github.io/jq/"]
+
+        ```
+        $ cd ~/Downloads 
+        $ mv jq-linux64 jq 
+        $ sudo /usr/bin/install -m 0755 -o root -g root -t /usr/local/bin jq 
+        ```
+
+Running tests
+=================
 Run bitcoind with:
 `~/dev/bitcoin-abc/build/src/bitcoind -regtest  -monolithactivationtime=0`
 or
